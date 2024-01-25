@@ -119,8 +119,9 @@ header .ewalletLogo h1 {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 350px) {
-  .income-expense {
+@media screen and (max-width: 350px) {
+  .income-expense,
+  .add__value {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -160,7 +161,7 @@ header .ewalletLogo h1 {
           align-items: center;
 }
 
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
   .income-expense .income,
   .income-expense .expense {
     width: 100%;
@@ -248,7 +249,7 @@ header .ewalletLogo h1 {
   width: 10.5rem;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .add__value {
     width: 9.5rem;
   }
