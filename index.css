@@ -254,6 +254,13 @@ header .ewalletLogo h1 {
   }
 }
 
+@media screen and (max-width: 350px) {
+  .add__value,
+  .add {
+    width: 100%;
+  }
+}
+
 .add__type:focus,
 .add__description:focus,
 .add__value:focus {
